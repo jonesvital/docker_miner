@@ -1,0 +1,6 @@
+services:
+  miner:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
